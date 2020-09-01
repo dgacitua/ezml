@@ -1,0 +1,17 @@
+Package: ezml
+Type: Package
+Title: EZML: Easy Machine Learning Package
+Version: 0.0.1
+Author: Daniel Gacitúa <daniel.gacitua@usach.cl>
+Maintainer: Daniel Gacitúa <daniel.gacitua@usach.cl>
+Description: A simplified interface for common Machine Learning methods in R
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    parallel
+    doSNOW
+    C50
+    e1071
+    naivebayes
+    randomForest
